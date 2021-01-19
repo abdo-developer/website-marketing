@@ -1,0 +1,399 @@
+/* Import File Fonts Arabic Cario and JFF - Regular */
+
+@font-face {
+    src: url(../fonts/Cairo-Black.ttf);
+    font-family: ar-heading;
+}
+
+@font-face {
+    src: url(../fonts/JFFlatregular.ttf);
+    font-family: ar-content;
+}
+
+/* Style Body */
+body {
+    direction: rtl;
+    font-family: ar-content;
+    font-size: 16px;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: ar-heading;
+}
+
+/* Style Header */
+header.Fisrt_header {
+    background-image: url(../images/Header_bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.Fisrt_header nav button {
+    background-color: white;
+}
+
+header.Fisrt_header nav ul {
+    padding: 0;
+}
+
+header.Fisrt_header nav ul li a {
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+header.Fisrt_header nav ul li a:hover,
+header.Fisrt_header nav ul li a:active,
+header.Fisrt_header nav ul li a:focus {
+    color: wheat;
+}
+
+header.Fisrt_header .title-header h4 {
+    margin: 35px 0;
+    color: wheat;
+}
+
+header.Fisrt_header .text-marketing p {
+    color: #fff;
+    margin-bottom: 15%;
+}
+
+header.Fisrt_header .important-links a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+header.Fisrt_header .important-links a:hover,
+header.Fisrt_header .important-links a:active,
+header.Fisrt_header .important-links a:focus {
+    background-color: wheat;
+}
+
+header.Fisrt_header .important-links a svg {
+    font-size: 18px;
+}
+
+header.Fisrt_header .image-marketing img {
+    height: 500px;
+}
+
+/* Style form search */
+
+header.Fisrt_header form {
+    margin-bottom: 8%;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.scroll-down img {
+    height: 50px;
+    margin-bottom: 7%;
+    margin-top: -7%;
+}
+
+.scroll-down a {
+    text-decoration: none;
+}
+
+.title h4 {
+    margin: 40px 0;
+}
+
+.bar {
+    border-bottom: 2px inset orange;
+    width: 10%;
+    margin: -20px auto;
+}
+
+.our-about .title-section h4 {
+    margin-top: 15%;
+    margin-bottom: 25px;
+}
+
+.our-about .read-more a {
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: wheat;
+    padding: 12px 35px;
+    border-radius: 25px;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.our-about .read-more a:hover,
+.our-about .read-more a:active,
+.our-about .read-more a:focus {
+    background-color: rgb(247, 201, 118);
+}
+
+.our-about .image_mark img {
+    height: 350px;
+    margin-top: 8%;
+}
+
+.Features_our_services {
+    background-color: wheat;
+    padding: 10px 0;
+    margin: 30px 0;
+}
+
+.Features_our_services .small-description p {
+    margin-top: 40px;
+}
+
+.Features_our_services .icon img {
+    height: 95px;
+    margin: 30px 0;
+}
+
+.Features_our_services .title_img h5 {
+    margin-bottom: 12px;
+}
+
+.Features_our_services .title_img .line {
+    border-bottom: 2px dashed orange;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.Contact-us form {
+    margin-top: 30px;
+}
+
+.Contact-us form .form-group button {
+    background-color: wheat;
+    padding: 12px 20px;
+    color: black;
+    font-weight: 600;
+    margin-top: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Contact-us form .form-group button:active,
+.Contact-us form .form-group button:hover,
+.Contact-us form .form-group button:focus {
+    background-color: burlywood;
+}
+
+.Contact-us .map-google iframe {
+    margin-top: 13%;
+}
+
+footer.latest-footer {
+    background-image: url(../images/digital-marketing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12px;
+}
+
+footer.latest-footer .marg-top {
+    margin-top: 40px;
+    color: white;
+}
+
+footer.latest-footer .title h4 {
+    color: orange;
+}
+
+.bar-x {
+    border-bottom: 2px inset orange;
+    width: 30%;
+    margin: -20px auto;
+}
+
+footer.latest-footer .important-links a {
+    text-decoration: none;
+    color: wheat;
+    transition: all 0.5s ease-in-out;
+}
+
+footer.latest-footer .important-links a:hover,
+footer.latest-footer .important-links a:active,
+footer.latest-footer .important-links a:focus {
+    color: burlywood;
+}
+
+footer.latest-footer .social-media ul {
+    padding: 0;
+    margin-top: 12px;
+}
+
+footer.latest-footer .social-media ul li {
+    margin-right: 0 !important;
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+footer.latest-footer .social-media ul li:hover,
+footer.latest-footer .social-media ul li:active,
+footer.latest-footer .social-media ul li:focus {
+    background-color: rgb(207, 140, 16);
+} 
+
+footer.latest-footer .social-media ul li a {
+    text-decoration: none;
+}
+
+footer.latest-footer .social-media ul li a svg {
+    color: black;
+    font-size: 24px;
+}
+
+footer.latest-footer .copyright h5 {
+    color: wheat;
+    font-size: 18px;
+}
+
+footer.latest-footer .copyright h5 a {
+    text-decoration: none;
+    color: orange;
+    transition: all 0.5s ease-in-out;
+}
+
+footer.latest-footer .copyright h5 a:hover,
+footer.latest-footer .copyright h5 a:active,
+footer.latest-footer .copyright h5 a:focus {
+    color: rgb(201, 130, 0);
+}
+
+
+/*  Responsive page with all device */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    header.Fisrt_header .title-header h4 {
+        font-size: 18px;
+    }
+
+    header.Fisrt_header .important-links a {
+        padding: 20px 28px;
+        display: block;
+        margin-bottom: 22px;
+    }
+
+    header.Fisrt_header .image-marketing img {
+        height: 295px;
+    }
+
+    .bar {
+        width: 30%;
+    }
+
+    .our-about .read-more a {
+        padding: 18px 35px;
+    }
+
+    .our-about .image_mark img {
+        height: 285px;
+        margin-top: 8%;
+    }
+
+    .Contact-us .map-google iframe {
+        width: 100%;
+        margin: 35px 0;
+    }
+
+    .bar-x {
+        width: 45%;
+    }
+
+    footer.latest-footer .title h4 {
+        font-size: 20px;
+    }
+
+    footer.latest-footer .copyright h5 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .bar {
+        width: 15%;
+    }
+
+    .our-about .read-more a {
+        padding: 20px 35px;
+    }
+
+    .Features_our_services .title_img .line {
+        width: 40%;
+    }
+
+    .Contact-us .map-google iframe {
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .our-about .title-section h4 {
+        margin-top: 8%;
+    }
+
+    .our-about .image_mark img {
+        margin-top: 5%;
+    }
+
+    .Features_our_services .title_img .line {
+        width: 35%;
+    }
+
+    .Contact-us .map-google iframe {
+        margin: 25px 0px;
+    }
+
+    .bar-x {
+        width: 18%;
+    }
+
+    footer.latest-footer .social-media ul {
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    header.Fisrt_header .image-marketing img {
+        height: 460px;
+    }
+
+    .Contact-us .map-google iframe {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    /* Good Responsive */
+    .Contact-us .map-google iframe {
+        width: 100%;
+    }
+}
